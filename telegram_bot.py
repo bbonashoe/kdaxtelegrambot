@@ -35,7 +35,6 @@ def query_ans(msg):
         bot.sendMessage(mc, text = "평단 2.2")
 
         
-
 access_token = os.environ["BOT_TOKEN"]
 TOKEN = (access_token)
 mc = '699099967'
