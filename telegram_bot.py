@@ -4,8 +4,7 @@ import telepot
 from telepot.loop import MessageLoop       
 from telepot.namedtuple import InlineKeyboardMarkup as MU, InlineKeyboardButton as BT
 
-access_token = os.environ["BOT_TOKEN"]
-token = (access_token)
+token = '5003695944:AAFOz4oy4Kpv9uCBy8SxNsmqBfgRddQHHd8'
 mc = '699099967'
 bot = telepot.Bot(token)
 
@@ -35,8 +34,8 @@ def query_ans(msg):
         bot.sendMessage(mc, text = "평단 2.2")
 
         
-access_token = os.environ["BOT_TOKEN"]
-TOKEN = (access_token)
+
+TOKEN = "5003695944:AAFOz4oy4Kpv9uCBy8SxNsmqBfgRddQHHd8"
 mc = '699099967'
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, {'chat': btn_show, "callback_query" : query_ans}).run_as_thread()
