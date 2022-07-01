@@ -1,1 +1,1 @@
-telepot==0.3.1
+telepot==13.1
