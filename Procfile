@@ -1,1 +1,1 @@
-worker: import time(test).py
+worker: import time(test)
