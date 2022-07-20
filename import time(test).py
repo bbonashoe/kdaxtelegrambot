@@ -9,8 +9,10 @@ from telegram import InlineKeyboardButton as BT, InlineKeyboardMarkup as MU
 from telegram.ext import Updater
 from telegram.ext import CommandHandler, CallbackQueryHandler
  
-access_token = os.environ["BOT_TOKEN"]
-TOKEN = (access_token)
+# access_token = os.environ["BOT_TOKEN"]
+# TOKEN = (access_token)
+
+TOKEN='5003695944:AAFOz4oy4Kpv9uCBy8SxNsmqBfgRddQHHd8'
  
 updater = Updater( token=TOKEN, use_context=True )
 dispatcher = updater.dispatcher
