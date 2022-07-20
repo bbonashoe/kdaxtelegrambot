@@ -10,7 +10,7 @@ from telegram.ext import Updater
 from telegram.ext import CommandHandler, CallbackQueryHandler
  
 access_token = os.environ["BOT_TOKEN"]
-token = (access_token)
+TOKEN = (access_token)
  
 updater = Updater( token=TOKEN, use_context=True )
 dispatcher = updater.dispatcher
